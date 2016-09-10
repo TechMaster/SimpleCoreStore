@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1DE0FB480FF91D58E291DBE /* Pods_RockCoreStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B49231A1E9B81B5132F4979 /* Pods_RockCoreStore.framework */; };
+		E2ABAE491D84029500D9AFE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2ABAE481D84029500D9AFE0 /* AppDelegate.swift */; };
+		E2ABAE4B1D84029500D9AFE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2ABAE4A1D84029500D9AFE0 /* ViewController.swift */; };
+		E2ABAE4E1D84029500D9AFE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2ABAE4C1D84029500D9AFE0 /* Main.storyboard */; };
+		E2ABAE531D84029500D9AFE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2ABAE521D84029500D9AFE0 /* Assets.xcassets */; };
+		E2ABAE561D84029500D9AFE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2ABAE541D84029500D9AFE0 /* LaunchScreen.storyboard */; };
+		E2ABAE601D84030500D9AFE0 /* HumanResource.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E2ABAE5E1D84030500D9AFE0 /* HumanResource.xcdatamodeld */; };
+		E2ABAE631D84035800D9AFE0 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2ABAE611D84035800D9AFE0 /* Person+CoreDataProperties.swift */; };
+		E2ABAE641D84035800D9AFE0 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2ABAE621D84035800D9AFE0 /* Person.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		574EDE9535B654075D6F00B5 /* Pods-RockCoreStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RockCoreStore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RockCoreStore/Pods-RockCoreStore.debug.xcconfig"; sourceTree = "<group>"; };
+		57B31DC7CED07AA0EC963DF6 /* Pods-RockCoreStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RockCoreStore.release.xcconfig"; path = "Pods/Target Support Files/Pods-RockCoreStore/Pods-RockCoreStore.release.xcconfig"; sourceTree = "<group>"; };
+		9B49231A1E9B81B5132F4979 /* Pods_RockCoreStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RockCoreStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2ABAE451D84029500D9AFE0 /* RockCoreStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockCoreStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2ABAE481D84029500D9AFE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2ABAE4A1D84029500D9AFE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E2ABAE4D1D84029500D9AFE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2ABAE521D84029500D9AFE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2ABAE551D84029500D9AFE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2ABAE571D84029500D9AFE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2ABAE5F1D84030500D9AFE0 /* HumanResource.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HumanResource.xcdatamodel; sourceTree = "<group>"; };
+		E2ABAE611D84035800D9AFE0 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E2ABAE621D84035800D9AFE0 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2ABAE421D84029500D9AFE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1DE0FB480FF91D58E291DBE /* Pods_RockCoreStore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F88930CF58DA29BD3C7CF98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B49231A1E9B81B5132F4979 /* Pods_RockCoreStore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52793FB342FFDD8FAE59B005 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				574EDE9535B654075D6F00B5 /* Pods-RockCoreStore.debug.xcconfig */,
+				57B31DC7CED07AA0EC963DF6 /* Pods-RockCoreStore.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E2ABAE3C1D84029500D9AFE0 = {
+			isa = PBXGroup;
+			children = (
+				E2ABAE471D84029500D9AFE0 /* RockCoreStore */,
+				E2ABAE461D84029500D9AFE0 /* Products */,
+				52793FB342FFDD8FAE59B005 /* Pods */,
+				3F88930CF58DA29BD3C7CF98 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E2ABAE461D84029500D9AFE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2ABAE451D84029500D9AFE0 /* RockCoreStore.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2ABAE471D84029500D9AFE0 /* RockCoreStore */ = {
+			isa = PBXGroup;
+			children = (
+				E2ABAE5D1D8402EE00D9AFE0 /* Model */,
+				E2ABAE481D84029500D9AFE0 /* AppDelegate.swift */,
+				E2ABAE4A1D84029500D9AFE0 /* ViewController.swift */,
+				E2ABAE4C1D84029500D9AFE0 /* Main.storyboard */,
+				E2ABAE521D84029500D9AFE0 /* Assets.xcassets */,
+				E2ABAE541D84029500D9AFE0 /* LaunchScreen.storyboard */,
+				E2ABAE571D84029500D9AFE0 /* Info.plist */,
+			);
+			path = RockCoreStore;
+			sourceTree = "<group>";
+		};
+		E2ABAE5D1D8402EE00D9AFE0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E2ABAE611D84035800D9AFE0 /* Person+CoreDataProperties.swift */,
+				E2ABAE621D84035800D9AFE0 /* Person.swift */,
+				E2ABAE5E1D84030500D9AFE0 /* HumanResource.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2ABAE441D84029500D9AFE0 /* RockCoreStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2ABAE5A1D84029500D9AFE0 /* Build configuration list for PBXNativeTarget "RockCoreStore" */;
+			buildPhases = (
+				7DE9009F3023E55BDA2A5091 /* [CP] Check Pods Manifest.lock */,
+				E2ABAE411D84029500D9AFE0 /* Sources */,
+				E2ABAE421D84029500D9AFE0 /* Frameworks */,
+				E2ABAE431D84029500D9AFE0 /* Resources */,
+				C93E6A6A7C0063149BEEB5AA /* [CP] Embed Pods Frameworks */,
+				4C762EDD5BEF10F035E8234E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RockCoreStore;
+			productName = RockCoreStore;
+			productReference = E2ABAE451D84029500D9AFE0 /* RockCoreStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2ABAE3D1D84029500D9AFE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Techmaster Vietnam";
+				TargetAttributes = {
+					E2ABAE441D84029500D9AFE0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E2ABAE401D84029500D9AFE0 /* Build configuration list for PBXProject "RockCoreStore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2ABAE3C1D84029500D9AFE0;
+			productRefGroup = E2ABAE461D84029500D9AFE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2ABAE441D84029500D9AFE0 /* RockCoreStore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2ABAE431D84029500D9AFE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2ABAE561D84029500D9AFE0 /* LaunchScreen.storyboard in Resources */,
+				E2ABAE531D84029500D9AFE0 /* Assets.xcassets in Resources */,
+				E2ABAE4E1D84029500D9AFE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C762EDD5BEF10F035E8234E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RockCoreStore/Pods-RockCoreStore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DE9009F3023E55BDA2A5091 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C93E6A6A7C0063149BEEB5AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RockCoreStore/Pods-RockCoreStore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2ABAE411D84029500D9AFE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2ABAE641D84035800D9AFE0 /* Person.swift in Sources */,
+				E2ABAE631D84035800D9AFE0 /* Person+CoreDataProperties.swift in Sources */,
+				E2ABAE4B1D84029500D9AFE0 /* ViewController.swift in Sources */,
+				E2ABAE491D84029500D9AFE0 /* AppDelegate.swift in Sources */,
+				E2ABAE601D84030500D9AFE0 /* HumanResource.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E2ABAE4C1D84029500D9AFE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2ABAE4D1D84029500D9AFE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2ABAE541D84029500D9AFE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2ABAE551D84029500D9AFE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2ABAE581D84029500D9AFE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2ABAE591D84029500D9AFE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2ABAE5B1D84029500D9AFE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 574EDE9535B654075D6F00B5 /* Pods-RockCoreStore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RockCoreStore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.techmaster.RockCoreStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E2ABAE5C1D84029500D9AFE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57B31DC7CED07AA0EC963DF6 /* Pods-RockCoreStore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RockCoreStore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.techmaster.RockCoreStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2ABAE401D84029500D9AFE0 /* Build configuration list for PBXProject "RockCoreStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2ABAE581D84029500D9AFE0 /* Debug */,
+				E2ABAE591D84029500D9AFE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2ABAE5A1D84029500D9AFE0 /* Build configuration list for PBXNativeTarget "RockCoreStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2ABAE5B1D84029500D9AFE0 /* Debug */,
+				E2ABAE5C1D84029500D9AFE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E2ABAE5E1D84030500D9AFE0 /* HumanResource.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E2ABAE5F1D84030500D9AFE0 /* HumanResource.xcdatamodel */,
+			);
+			currentVersion = E2ABAE5F1D84030500D9AFE0 /* HumanResource.xcdatamodel */;
+			path = HumanResource.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E2ABAE3D1D84029500D9AFE0 /* Project object */;
+}
