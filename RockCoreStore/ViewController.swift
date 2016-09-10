@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     func configureStorage() {
         _ = dataStack.addStorage(
             SQLiteStore(
-                fileName: "HumanResource.sql",
+                fileName: "HumanResource3.sql",
                // configuration: "Default",
                 localStorageOptions: .RecreateStoreOnModelMismatch)
             ,
@@ -23,6 +23,9 @@ class ViewController: UIViewController {
                 switch result {
                 case .Success(let storage):
                     print("Successfully added sqlite store: \(storage)")
+                    self.addSampleData()
+                    self.getData()
+
                 case .Failure(let error):
                     print("Failed adding sqlite store with error: \(error)")
                 }
@@ -62,8 +65,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         configureStorage()
-        addSampleData()
-        getData()
+        //addSampleData()
+        //getData()
         
     }
 
